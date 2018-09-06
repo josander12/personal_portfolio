@@ -1,3 +1,5 @@
+$text-color: #fff;
+$navbar-background: rgba(0,0,0,.5);
 
 * {
     margin: 0;
@@ -13,7 +15,7 @@ body {
     font-size: 62.5%;
     position: relative;
     font-family: 'Roboto Condensed', sans-serif;
-    color: #fff;
+    color: $text-color;
 }
 
 #side-navbar {
@@ -24,23 +26,23 @@ body {
     bottom: 0;
     width: 5rem;
     text-align: center;
-    background-color: rgba(0,0,0,.5);
-}
+    background-color: $navbar-background;
+    
+    #home-link {
+        margin-top: 10vh;
+    }
 
-a {
-    font-size: 1.8rem;
-    text-decoration: none;
-    color: #fff; 
-}
-
-p {
-    font-size: 1rem;
-    text-transform: uppercase;
-    margin-bottom: 13vh;
-}
-
-#home-link {
-    margin-top: 10vh;
+    a {
+        font-size: 1.8rem;
+        text-decoration: none;
+        color: $text-color; 
+    
+        p {
+            font-size: 1rem;
+            text-transform: uppercase;
+            margin-bottom: 13vh;
+        }
+    }
 }
 
 #footer {
