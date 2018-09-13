@@ -91,17 +91,20 @@ body {
 
         .row {
             display: flex;
-            justify-content: center;
+            justify-content: space-around;
 
             .card {
                 width: 20rem;
-                margin: 1rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
 
                 img {
                 width: 100%;
                 margin: 1rem;
                 border: solid white .4rem;
-                // height: 98%;
+                -webkit-box-shadow: -4px 18px 40px 0px rgba(0,0,0,1);
+                -moz-box-shadow: -4px 18px 40px 0px rgba(0,0,0,1);
+                box-shadow: -4px 18px 40px 0px rgba(0,0,0,1);
                 }
             }
   
