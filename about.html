@@ -1,30 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
+
 <head>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/about.css">
-    <meta charset="utf-8">
+    <meta charset='UTF-8'>
     <title>About Me</title>
 </head>
+
 <body>
 
-    <div id="mySidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html"><i class="fas fa-home"></i>Home</a>
-        <a href="about.html"><i class="far fa-smile-beam"></i>About Me</a>
-        <a href="portfolio.html"><i class="far fa-folder-open"></i>Portfolio</a>
-        <a href="contact.html"><i class="far fa-envelope"></i>Contact</a>
-    </div>
+    <div id="page-wrapper">
 
-    <i id="hamburger" class="fas fa-bars" onclick="openNav()"></i>
-
-    <div id="content-wrapper">
-        <div id="content">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis aperiam voluptatibus esse assumenda ad ipsam adipisci libero repudiandae recusandae sequi! Eum possimus pariatur nihil repudiandae minus maxime quibusdam incidunt nam?
+        <div id="mySidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html"><i class="fas fa-home"></i>Home</a>
+            <a href="about.html"><i class="far fa-smile-beam"></i>About Me</a>
+            <a href="portfolio.html"><i class="far fa-folder-open"></i>Portfolio</a>
+            <a href="contact.html"><i class="far fa-envelope"></i>Contact</a>
         </div>
+
+        <i id="hamburger" class="fas fa-bars" onclick="openNav()"></i>
+
+
+        <div id="content-wrapper" class="content-wrapper">
+            <div class="content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque adipisci dolore ipsum ad quia! Itaque
+                molestias
+                id fugiat explicabo esse, at neque laboriosam beatae possimus nulla molestiae asperiores eligendi
+                obcaecati?
+            </div>
+        </div>
+
     </div>
+
 
     <script>
         function openNav() {
@@ -32,15 +44,16 @@
             document.getElementById("hamburger").style.marginLeft = "250px";
             document.getElementById("content-wrapper").style.marginLeft = "250px";
             document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-    }
+        }
 
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
-            document.getElementById("hamburger").style.marginLeft= "0";
-            document.getElementById("content-wrapper").style.marginLeft="0";
+            document.getElementById("hamburger").style.marginLeft = "0";
+            document.getElementById("content-wrapper").style.marginLeft = "0";
             document.body.style.backgroundColor = "white";
-    }
+        }
     </script>
-     
+
 </body>
-</html> 
+
+</html>

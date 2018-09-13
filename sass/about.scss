@@ -8,9 +8,19 @@ html,body {
 }
 body {
     font-size: 62.5%;
-    position: relative;
     font-family: 'Roboto Condensed', sans-serif;
     transition: background-color .5s;
+    color: white;
+}
+
+#page-wrapper {
+    height: 100vh;
+    margin: 2rem;
+    background: url('../assets/code.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #mySidenav {
@@ -56,21 +66,48 @@ body {
     transition: margin-left .5s;
     padding: 1.6rem;
     font-size: 1.8rem;
+    color: black;
+    text-shadow:
+		-1px -1px 0 #fff,
+		1px -1px 0 #fff,
+		-1px 1px 0 #fff,
+		1px 1px 0 #fff;
 
     &:hover {
         cursor: pointer;
     }
 }
 
-#content-wrapper {
+.content-wrapper {
     transition: margin-left .5s;
 
-    #content {
-        background-color: black;
+    .content {
         margin: 2rem;
         padding: 2rem;
         color: white;
-        font-size: 1rem;  
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+
+        .row {
+            display: flex;
+            justify-content: center;
+
+            .card {
+                width: 20rem;
+                margin: 1rem;
+
+                img {
+                width: 100%;
+                margin: 1rem;
+                border: solid white .4rem;
+                // height: 98%;
+                }
+            }
+  
+            
+            
+        }
     }
 }
 

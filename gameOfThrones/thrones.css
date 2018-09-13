@@ -1,0 +1,107 @@
+body {
+    position: relative;
+    font-family: 'Cinzel', serif;
+    color: white;
+    mix-blend-mode: difference;
+    cursor: url(game_of_thrones_img/pointer.png), auto;
+}
+
+body .specify:hover {
+    border-bottom:#D4AF37 !important;
+}
+
+span, a {
+    color: #D4AF37;
+}
+
+h1 {
+    border-bottom: #D4AF37;
+}
+
+p {
+    font-family: 'Crimson Text', serif;
+    font-size: 14pt;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+#welcome {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height:800px;
+    color: #fff; 
+    background: url('game_of_thrones_img/iron_throne.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+#white-walkers {
+    padding:30px;
+    height:800px;
+    color: #fff; 
+    background: url("game_of_thrones_img/White_Walker.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+#the-wall {
+    padding:30px;
+    height:800px;
+    color: #fff; 
+    background: url('game_of_thrones_img/the_wall.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+#targaryen {
+    padding:30px;
+    height:1500px;
+    color: #fff; 
+    background: url("game_of_thrones_img/targaryen_banner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+#baratheon {
+    padding:30px;
+    height:1600px;
+    color: #fff; 
+    background: url("game_of_thrones_img/baratheon_banner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+#lannister {
+    padding:30px;
+    height:1600px;
+    color: #fff; 
+    background: url("game_of_thrones_img/lannister_banner.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+#stark {
+    padding:30px;
+    height:3500px;
+    color: #fff; 
+    background: url("game_of_thrones_img/stark_banner.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

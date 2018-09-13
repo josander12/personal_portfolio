@@ -9,21 +9,72 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <div id="mySidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html"><i class="fas fa-home"></i>Home</a>
-        <a href="about.html"><i class="far fa-smile-beam"></i>About Me</a>
-        <a href="portfolio.html"><i class="far fa-folder-open"></i>Portfolio</a>
-        <a href="contact.html"><i class="far fa-envelope"></i>Contact</a>
-    </div>
-    
-    <i id="hamburger" class="fas fa-bars" onclick="openNav()"></i>
-    
-    <div id="content-wrapper">
-        <div id="content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque adipisci dolore ipsum ad quia! Itaque molestias id fugiat explicabo esse, at neque laboriosam beatae possimus nulla molestiae asperiores eligendi obcaecati?
+
+    <div id="page-wrapper">
+
+        <div id="mySidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html"><i class="fas fa-home"></i>Home</a>
+            <a href="about.html"><i class="far fa-smile-beam"></i>About Me</a>
+            <a href="portfolio.html"><i class="far fa-folder-open"></i>Portfolio</a>
+            <a href="contact.html"><i class="far fa-envelope"></i>Contact</a>
         </div>
+        
+        <i id="hamburger" class="fas fa-bars" onclick="openNav()"></i>
+        
+        
+        <div id="content-wrapper" class="content-wrapper">
+            <div class="content">
+
+                <div class="row">
+
+                    <div class="card">
+                        <a href="gameOfThrones/thrones.html">
+                            <img src="assets/got.png">
+                        </a> 
+                    </div>
+
+                    <div class="card">
+                        <a href="portfolio-alt/design.html">
+                            <img src="assets/design.png">
+                        </a>
+                    </div>
+
+                    <div class="card">
+                        <a href="#">
+                            <img src="assets/got.png">
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                
+                    <div class="card">
+                        <a href="#">
+                            <img src="assets/got.png">
+                        </a>
+                    </div>
+                
+                    <div class="card">
+                        <a href="#">
+                            <img src="assets/got.png">
+                        </a>
+                    </div>
+                
+                    <div class="card">
+                        <a href="#">
+                            <img src="assets/got.png">
+                        </a>
+                    </div>
+                
+                </div>
+
+            </div>
+        </div>
+
     </div>
+    
     
     <script>
         function openNav() {
