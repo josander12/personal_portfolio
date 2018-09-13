@@ -1,10 +1,44 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html>
 <head>
-    <meta charset='UTF-8'>
-    <title>Joe Anderson | About Me</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/about.css"
 </head>
 <body>
-  
+
+    <div id="mySidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#"><i class="fas fa-home"></i>Home</a>
+        <a href=""><i class="far fa-smile-beam"></i>About Me</a>
+        <a href="#"><i class="far fa-folder-open"></i>Portfolio</a>
+        <a href="#"><i class="far fa-envelope"></i>Contact</a>
+    </div>
+
+    <i id="hamburger" class="fas fa-bars" onclick="openNav()"></i>
+
+    <div id="content-wrapper">
+        <div id="content">
+            lorem ipsum yada yada a;sldkjf a;slkdjf ;alskdjf ;alksdjf ;alksdjf ;laksdjf ;lkajsdf
+        </div>
+    </div>
+
+    <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("hamburger").style.marginLeft = "250px";
+        document.getElementById("content-wrapper").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("hamburger").style.marginLeft= "0";
+        document.getElementById("content-wrapper").style.marginLeft="0";
+        document.body.style.backgroundColor = "white";
+    }
+    </script>
+     
 </body>
-</html>
+</html> 

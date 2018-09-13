@@ -24,7 +24,7 @@ body {
     height: 100vh;
     left: 0;
     bottom: 0;
-    width: 5rem;
+    width: 7.5rem;
     text-align: center;
     background-color: $navbar-background;
     
@@ -40,9 +40,45 @@ body {
         p {
             font-size: 1rem;
             text-transform: uppercase;
-            margin-bottom: 13vh;
         }
     }
+}
+
+.link_hover_effect {
+    transition: all .2s ease-out
+}
+
+.link_hover_effect:hover { 
+    transform: scale(1.2);
+}
+
+
+#home-link {
+    animation: buttonTransition 1s ease-out;
+    animation-fill-mode: backwards;
+    margin-bottom: 13vh;
+    border-right: solid $text-color 5px;
+}
+
+#about_me-link {
+    animation: buttonTransition 1s ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+    margin-bottom: 13vh;
+}
+
+#portfolio-link {
+    animation: buttonTransition 1s ease-out;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    margin-bottom: 13vh;
+}
+
+#contact-link {
+    animation: buttonTransition 1s ease-out;
+    animation-delay: 3s;
+    animation-fill-mode: backwards;
+    margin-bottom: 13vh;
 }
 
 #footer {
@@ -55,4 +91,27 @@ body {
     text-align: center;
     letter-spacing: .1rem;
     padding: 1rem;
+    font-size: .7rem;
+}
+
+#content-wrapper {
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+}
+
+@keyframes buttonTransition {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    80% {
+        opacity: 0;
+        transform: translateX(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
