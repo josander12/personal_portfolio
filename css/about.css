@@ -18,6 +18,67 @@ body {
   -o-background-size: cover;
   background-size: cover; }
 
+.content-wrapper {
+  transition: margin-left .5s; }
+  .content-wrapper .content {
+    margin: 2rem;
+    padding: 2rem;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column; }
+    .content-wrapper .content .row {
+      display: flex;
+      justify-content: space-around; }
+      .content-wrapper .content .row .card {
+        width: 20rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem; }
+        .content-wrapper .content .row .card img {
+          width: 100%;
+          margin: 1rem;
+          border: solid white .4rem;
+          -webkit-box-shadow: -4px 18px 40px 0px black;
+          -moz-box-shadow: -4px 18px 40px 0px black;
+          box-shadow: -4px 18px 40px 0px black; }
+      .content-wrapper .content .row .top {
+        margin-top: 7rem; }
+
+@media screen and (max-height: 450px) {
+  #mySidenav {
+    padding-top: 15px; }
+  #mySidenav a {
+    font-size: 18px; } }
+
+#footer {
+  position: fixed;
+  width: 50%;
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  letter-spacing: .1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  color: black;
+  font-weight: 700; }
+
+#hamburger {
+  position: fixed;
+  transition: margin-left .5s;
+  background: #fff;
+  border-radius: 100px;
+  margin: 2rem;
+  padding: 1.6rem;
+  font-size: 1.8rem;
+  color: black;
+  -webkit-box-shadow: -4px 10px 40px 0px black;
+  -moz-box-shadow: -4px 10px 40px 0px black;
+  box-shadow: -4px 10px 40px 0px black; }
+  #hamburger:hover {
+    cursor: pointer; }
+
 #mySidenav {
   height: 100%;
   width: 0;
@@ -47,57 +108,3 @@ body {
     right: 25px;
     font-size: 36px;
     margin-left: 50px; }
-
-#hamburger {
-  transition: margin-left .5s;
-  background: rgba(0, 0, 0, 0.5);
-  padding: 1.6rem;
-  font-size: 1.8rem;
-  color: black;
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; }
-  #hamburger:hover {
-    cursor: pointer; }
-
-.content-wrapper {
-  transition: margin-left .5s; }
-  .content-wrapper .content {
-    margin: 2rem;
-    padding: 2rem;
-    color: white;
-    font-size: 1rem;
-    display: flex;
-    flex-direction: column; }
-    .content-wrapper .content .row {
-      display: flex;
-      justify-content: space-around; }
-      .content-wrapper .content .row .card {
-        width: 20rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem; }
-        .content-wrapper .content .row .card img {
-          width: 100%;
-          margin: 1rem;
-          border: solid white .4rem;
-          -webkit-box-shadow: -4px 18px 40px 0px black;
-          -moz-box-shadow: -4px 18px 40px 0px black;
-          box-shadow: -4px 18px 40px 0px black; }
-
-#footer {
-  position: fixed;
-  width: 50%;
-  margin: auto;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  text-align: center;
-  letter-spacing: .1rem;
-  padding: 1rem;
-  font-size: .8rem;
-  color: black;
-  font-weight: 700; }
-
-@media screen and (max-height: 450px) {
-  #mySidenav {
-    padding-top: 15px; }
-  #mySidenav a {
-    font-size: 18px; } }

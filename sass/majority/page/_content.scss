@@ -1,0 +1,38 @@
+.content-wrapper {
+    transition: margin-left .5s;
+
+    .content {
+        margin: 2rem;
+        padding: 2rem;
+        color: white;
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+
+        .row {
+            display: flex;
+            justify-content: space-around;
+
+            .card {
+                width: 20rem;
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+
+                img {
+                width: 100%;
+                margin: 1rem;
+                border: solid white .4rem;
+                -webkit-box-shadow: -4px 18px 40px 0px rgba(0,0,0,1);
+                -moz-box-shadow: -4px 18px 40px 0px rgba(0,0,0,1);
+                box-shadow: -4px 18px 40px 0px rgba(0,0,0,1);
+                }
+            }
+
+            .top {
+                margin-top: 7rem;
+            }
+            
+            
+        }
+    }
+}
