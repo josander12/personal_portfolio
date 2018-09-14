@@ -50,6 +50,7 @@ body {
 
 #hamburger {
   transition: margin-left .5s;
+  background: rgba(0, 0, 0, 0.5);
   padding: 1.6rem;
   font-size: 1.8rem;
   color: black;
@@ -80,6 +81,20 @@ body {
           -webkit-box-shadow: -4px 18px 40px 0px black;
           -moz-box-shadow: -4px 18px 40px 0px black;
           box-shadow: -4px 18px 40px 0px black; }
+
+#footer {
+  position: fixed;
+  width: 50%;
+  margin: auto;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  letter-spacing: .1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  color: black;
+  font-weight: 700; }
 
 @media screen and (max-height: 450px) {
   #mySidenav {
