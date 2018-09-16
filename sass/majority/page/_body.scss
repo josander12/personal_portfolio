@@ -12,11 +12,13 @@ body {
 }
 
 #page-wrapper {
-    height: 90vh;
+    height: 100%;
     margin: 2rem;
     background: url('../assets/code.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 0 85%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 100%, 0 85%);
 }

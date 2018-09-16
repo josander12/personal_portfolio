@@ -2,6 +2,8 @@
     position: fixed;
     transition: margin-left .5s;
     background: #fff;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
     border-radius: 100px;
     margin: 2rem;
     padding: 1.6rem;
@@ -10,6 +12,7 @@
     -webkit-box-shadow: -4px 10px 40px 0px rgba(0,0,0,1);
     -moz-box-shadow: -4px 10px 40px 0px rgba(0,0,0,1);
     box-shadow: -4px 10px 40px 0px rgba(0,0,0,1);
+    
    
     &:hover {
         cursor: pointer;
