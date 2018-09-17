@@ -2,7 +2,7 @@
 <html lang='en'>
 <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/about.css">
     <meta charset='UTF-8'>
@@ -10,66 +10,75 @@
 </head>
 <body>
 
-    <div id="mySidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html"><i class="fas fa-home"></i>Home</a>
-        <a href="about.html"><i class="far fa-smile-beam"></i>About Me</a>
-        <a href="portfolio.html"><i class="far fa-folder-open"></i>Portfolio</a>
-        <a href="contact.html"><i class="far fa-envelope"></i>Contact</a>
-    </div>
-
     <div id="page-wrapper">
 
-        <i id="hamburger" class="fas fa-bars" onclick="openNav()"></i>
+        <div id="mySidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html"><i class="fas fa-home"></i>Home</a>
+            <a href="about.html"><i class="far fa-smile-beam"></i>About Me</a>
+            <a href="portfolio.html"><i class="far fa-folder-open"></i>Portfolio</a>
+            <a href="contact.html"><i class="far fa-envelope"></i>Contact</a>
+        </div>
         
+        <div id="header-portfolio">
+        
+            <i id="hamburger" class="fas fa-bars" onclick="openNav()"></i>
+        
+            <h1 id="heading">My Portfolio</h1>
+        
+        </div>
         
         <div id="content-wrapper" class="content-wrapper">
-            <div class="content">
-
-                <div class="row">
-                    <div class="card top">
-                        <a href="/projects/portfolio-alt/design.html" target="_blank">
-                            <img src="assets/design.png">
-                        </a>
-                    </div>
-
-                    <div class="card top">
-                        <a href="/projects/battleship/battleship.html" target="_blank">
-                            <img src="assets/battleship.png">
-                        </a>
-                    </div>
-
-                    <div class="card top">
-                        <a href="/projects/gameOfThrones/thrones.html" target="_blank">
-                            <img src="assets/got.png">
-                        </a> 
-                    </div>
+        
+            <div class="row">
+        
+                <div class="card top">
+                    <a href="/projects/portfolio-alt/design.html" target="_blank">
+                        <img src="assets/design.png">
+                    </a>
                 </div>
-
-                <div class="row">
-                    <div class="card">
-                        <a href="/projects/portfolio-alt/design.html" target="_blank">
-                            <img src="assets/design.png">
-                        </a>
-                    </div>
-                
-                    <div class="card">
-                        <a href="/projects/battleship/battleship.html" target="_blank">
-                            <img src="assets/battleship.png">
-                        </a>
-                    </div>
-                
-                    <div class="card">
-                        <a href="/projects/gameOfThrones/thrones.html" target="_blank">
-                            <img src="assets/got.png">
-                        </a>
-                    </div>
+        
+                <div class="card top">
+                    <a href="/projects/battleship/battleship.html" target="_blank">
+                        <img src="assets/battleship.png">
+                    </a>
                 </div>
-
+        
+                <div class="card top">
+                    <a href="/projects/gameOfThrones/thrones.html" target="_blank">
+                        <img src="assets/got.png">
+                    </a>
+                </div>
+        
             </div>
+        
+            <div class="row">
+        
+                <div class="card">
+                    <a href="/projects/portfolio-alt/design.html" target="_blank">
+                        <img src="assets/design.png">
+                    </a>
+                </div>
+        
+                <div class="card">
+                    <a href="/projects/battleship/battleship.html" target="_blank">
+                        <img src="assets/battleship.png">
+                    </a>
+                </div>
+        
+                <div class="card">
+                    <a href="/projects/gameOfThrones/thrones.html" target="_blank">
+                        <img src="assets/got.png">
+                    </a>
+                </div>
+        
+            </div>
+        
         </div>
 
     </div>
+
+    
 
     <div id="footer">
         <h3>Copyright 2018 | Joe Anderson</h3>
@@ -86,7 +95,7 @@
 
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
-            document.getElementById("hamburger").style.marginLeft = "1.5rem";
+            document.getElementById("hamburger").style.marginLeft = "2vw";
             document.getElementById("content-wrapper").style.marginLeft = "0";
             document.body.style.backgroundColor = "white";
         }

@@ -1,7 +1,8 @@
-@import "majority/page/body";
-@import "majority/page/content";
-@import "majority/page/media";
+@import "majority/abstracts/media-queries";
 
+@import "majority/components/card";
 @import "majority/components/footer";
-@import "majority/components/hamburger";
+@import "majority/components/header";
 @import "majority/components/navbar";
+
+@import "majority/page/body";

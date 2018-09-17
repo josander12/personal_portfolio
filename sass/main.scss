@@ -1,18 +1,21 @@
 $text-color: #fff;
-$navbar-background: rgba(0,0,0,.5);
+$navbar-background: rgba(0,0,0,.4);
 
 * {
     margin: 0;
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
-    background: url(../assets/background.jpg) no-repeat center center fixed; 
+    background: url(../assets/cityscape.jpeg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-size: 62.5%;
     position: relative;
     font-family: 'Roboto Condensed', sans-serif;
     color: $text-color;
@@ -24,7 +27,7 @@ body {
     height: 100vh;
     left: 0;
     bottom: 0;
-    width: 7.5rem;
+    width: 6vw;
     text-align: center;
     background-color: $navbar-background;
     
@@ -33,12 +36,13 @@ body {
     }
 
     a {
-        font-size: 1.8rem;
+        font-size: 2vw;
         text-decoration: none;
-        color: $text-color; 
+        color: $text-color;
+        
     
         p {
-            font-size: 1rem;
+            font-size: 1vw;
             text-transform: uppercase;
         }
     }
@@ -49,7 +53,7 @@ body {
 }
 
 .link_hover_effect:hover { 
-    transform: scale(1.2);
+    transform: scale(1.15);
 }
 
 
@@ -91,14 +95,16 @@ body {
     text-align: center;
     letter-spacing: .1rem;
     padding: 1rem;
-    font-size: .7rem;
+    font-size: 1vw;
+    color: #000;
 }
 
 #content-wrapper {
     text-align: center;
-    margin-top: 20vh;
-    font-size: 1.3rem;
+    margin-top: 6vh;
+    font-size: 1.5vw;
     letter-spacing: .2rem;
+    color: #000;
 }
 
 @keyframes buttonTransition {

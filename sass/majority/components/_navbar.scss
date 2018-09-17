@@ -11,28 +11,23 @@
     padding-top: 60px;
 
     a {
-        padding: 8px 8px 8px 32px;
-        text-decoration: none;
-        font-size: 25px;
-        color: #818181;
-        display: block;
-        transition: 0.3s;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    }
 
-        &:hover {
-            color: #f1f1f1;
-        }
-
-        i {
-            margin-right: 1rem;
-            margin-bottom: 3rem;
-        }
+    &:hover {
+        color: #fff;
     }
 
     .closebtn {
-        position: absolute;
-        top: 0;
-        right: 25px;
-        font-size: 36px;
-        margin-left: 50px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
     }
 }
