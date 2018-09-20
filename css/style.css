@@ -21,17 +21,17 @@ body {
   height: 100vh;
   left: 0;
   bottom: 0;
-  width: 6vw;
+  width: 6vmax;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.4); }
   #side-navbar #home-link {
     margin-top: 10vh; }
   #side-navbar a {
-    font-size: 2vw;
+    font-size: 2vmax;
     text-decoration: none;
     color: #fff; }
     #side-navbar a p {
-      font-size: 1vw;
+      font-size: 1vmax;
       text-transform: uppercase; }
 
 .link_hover_effect {

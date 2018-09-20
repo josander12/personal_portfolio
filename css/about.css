@@ -32,11 +32,11 @@
   margin: 5px;
   width: 100vw;
   text-align: center;
-  font-size: 1rem;
+  font-size: 12px;
   font-family: 'Roboto Condensed', sans-serif; }
 
 #header-portfolio {
-  margin: 0 auto;
+  margin: 0 auto 1.5vw auto;
   top: 0;
   width: 95vw;
   background: url("../../../assets/banner.jpeg") no-repeat center center;
@@ -90,9 +90,12 @@
     font-size: 25px;
     color: #818181;
     display: block;
-    transition: 0.3s; }
-  #mySidenav:hover {
-    color: #fff; }
+    transition: 0.3s;
+    font-family: 'Roboto Condensed', sans-serif; }
+    #mySidenav a:hover {
+      color: #fff; }
+  #mySidenav i {
+    margin-right: 10px; }
   #mySidenav .closebtn {
     position: absolute;
     top: 0;
@@ -116,9 +119,22 @@ body {
 #page-wrapper {
   background-color: #efefef;
   margin-top: 3vh;
-  position: inline-block; }
+  position: inline-block;
+  height: 93vh; }
 
 #content-wrapper {
   transition: margin-left .5s;
   padding: 16px;
   position: relative; }
+
+#contact-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #contact-content-wrapper a {
+    font-size: 5vh;
+    color: black;
+    cursor: pointer;
+    margin: 15vh 5vh; }
+    #contact-content-wrapper a:visited {
+      color: black; }

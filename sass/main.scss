@@ -27,7 +27,7 @@ body {
     height: 100vh;
     left: 0;
     bottom: 0;
-    width: 6vw;
+    width: 6vmax;
     text-align: center;
     background-color: $navbar-background;
     
@@ -36,13 +36,13 @@ body {
     }
 
     a {
-        font-size: 2vw;
+        font-size: 2vmax;
         text-decoration: none;
         color: $text-color;
         
     
         p {
-            font-size: 1vw;
+            font-size: 1vmax;
             text-transform: uppercase;
         }
     }

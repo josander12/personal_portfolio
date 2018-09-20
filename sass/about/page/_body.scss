@@ -18,10 +18,29 @@ body {
     background-color: #efefef;
     margin-top: 3vh;
     position: inline-block;
+    height: 93vh;
 }
 #content-wrapper {
     transition: margin-left .5s;
     padding: 16px;
     position: relative;
-    
 }
+
+#contact-content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a {
+        font-size: 5vh;
+        color: black;
+        cursor: pointer;
+        margin: 15vh 5vh;
+
+        &:visited {
+            color: black;
+        }
+    }
+}
+
+
