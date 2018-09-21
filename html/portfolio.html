@@ -25,31 +25,36 @@
         <h1 id="heading">My Portfolio</h1>
 
     </header>
-        
-
-
-    
     
     <section>
 
         <div class="row">
     
             <div class="card top">
-                <a href="../projects/portfolio-alt/design.html" target="_blank">
-                    <img src="../assets/design.png">
+                <a href="../projects/portfolio-alt/design.html" target="_blank" class="active hide">
+                    <p>An alternate homepage featuring a video background.</p>
                 </a>
+                
+                <img src="../assets/design.png">
+                
             </div>
     
             <div class="card top">
-                <a href="../projects/pig/index.html" target="_blank">
-                    <img src="../assets/pig.png">
+                <a href="../projects/pig/index.html" target="_blank" class="active hide">
+                    <p>A two player dice game coded in Javascript. Don't roll a 1!</p>
                 </a>
+                
+                <img src="../assets/pig.png">
+                
             </div>
     
             <div class="card top">
-                <a href="../projects/gameOfThrones/thrones.html" target="_blank">
-                    <img src="../assets/got.png">
+                <a href="../projects/gameOfThrones/thrones.html" target="_blank" class="active hide">
+                    <p>Introduction to Game of thrones website built with the Bootstrap framework.</p>
                 </a>
+                
+                <img src="../assets/got.png">
+                
             </div>
     
         </div>
@@ -57,43 +62,49 @@
         <div class="row">
     
             <div class="card">
-                <a href="../projects/natours/index.html" target="_blank">
-                    <img src="../assets/natours.png">
+                <a href="../projects/natours/index.html" target="_blank" class="active hide">
+                    <p>A website for a fictional company, with all animations only in CSS.</p>
                 </a>
+    
+                <img src="../assets/natours.png">
+                
             </div>
 
             <div class="card">
-                <a href="../projects/battleship/battleship.html" target="_blank">
-                    <img src="../assets/battleship.png">
+
+                <a href="../projects/battleship/battleship.html" target="_blank" class="active hide">
+                    <p>A one-sided battleship game, built in Javascript.  Guess until you sink all three ships!</p>
                 </a>
+                
+                <img src="../assets/battleship.png">
+                
             </div>
     
         </div>
     
     </section>
 
-
-
-    
-
     <div id="footer">
         <h3>Copyright 2018 | Joe Anderson</h3>
     </div>
-    
-    
+     
     <script>
         function openNav() {
             document.getElementById("mySidenav").style.width = "250px";
-            // document.getElementById("header-portfolio").style.marginLeft = "250px";
-            // document.getElementById("content-wrapper").style.marginLeft = "250px";
             document.body.style.backgroundColor = "rgba(0,0,0,0.8)";
         }
 
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
-            // document.getElementById("header-portfolio").style.marginLeft = "2vw";
-            // document.getElementById("content-wrapper").style.marginLeft = "0";
             document.body.style.backgroundColor = "white";
+        }
+
+        function showCard() {
+            document.getElementById("select").classList.remove('hide');
+        }
+
+        function hideCard() {
+            document.getElementById("select").classlist.add('hide');
         }
     </script>
   
