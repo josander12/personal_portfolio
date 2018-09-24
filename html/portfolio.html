@@ -71,9 +71,19 @@
             </div>
 
             <div class="card">
+            
+                <a href="../projects/tetris/index.html" target="_blank" class="active hide">
+                    <p>The classic Tetris game!  Coded in Javascript. Arrow keys to move the blocks, and q/w to rotate.  See how many points you can get!</p>
+                </a>
+            
+                <img src="../assets/tetris.png">
+            
+            </div>
+
+            <div class="card">
 
                 <a href="../projects/battleship/battleship.html" target="_blank" class="active hide">
-                    <p>A one-sided battleship game, built in Javascript.  Guess until you sink all three ships!</p>
+                    <p>A one-sided battleship game, built in Javascript. Guess until you sink all three ships!</p>
                 </a>
                 
                 <img src="../assets/battleship.png">
@@ -97,14 +107,6 @@
         function closeNav() {
             document.getElementById("mySidenav").style.width = "0";
             document.body.style.backgroundColor = "white";
-        }
-
-        function showCard() {
-            document.getElementById("select").classList.remove('hide');
-        }
-
-        function hideCard() {
-            document.getElementById("select").classlist.add('hide');
         }
     </script>
   

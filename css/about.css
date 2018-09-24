@@ -128,10 +128,10 @@ section {
   text-align: center;
 }
 
-.active p {
+p {
   margin-top: 5vh;
   font-size: 1.6rem;
-  padding: 5px;
+  padding: 20px;
   color: white;
 }
 
@@ -180,10 +180,15 @@ img:active {
   justify-content: center;
   align-items: center;
   font-size: 5rem;
+  height: 31vh;
 }
 
 .links {
   margin: 3vh 1.5vw;
+  color: slategray;
+}
+
+.links:visited {
   color: slategray;
 }
 
